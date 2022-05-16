@@ -47,7 +47,7 @@ class GsrController extends Controller
  public function update(Request $request)
  {
   $request->validate([
-    'name' => 'required' ]);
+    'firstname' => 'required' ]);
     $Gsr= Gsr::find($request->id);
     $Gsr->firstname = $request->firstname;
     $Gsr->middlename = $request->middlename;

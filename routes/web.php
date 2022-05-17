@@ -37,4 +37,3 @@ Route::get('/Rcv/edit/{graduateid}', [RcvController::class, 'edit']);
 Route::post('/Rcv/update',[RcvController::class,'update'])->name('Rcv/update');
 Route::get('/Rcv/delete/{graduateid}', [RcvController::class, 'delete']);
 Route::get('/Rcv/search/{graduateid}', [RcvController::class, 'search'])->name('Rcv/search');
-

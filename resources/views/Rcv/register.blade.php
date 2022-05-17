@@ -13,7 +13,7 @@
  <label for="graduateid" class="col-md-4 col-formlabel text-md-right">{{ __('graduateid') }}</label>
  <div class="col-md-6">
  <input id="graduateid" type="text" class="formcontrol @error('graduateid') isinvalid @enderror" name="graduateid" value="{{ old('graduateid') }}" required autocomplete="graduateid" autofocus>
- @error('graduteid')
+ @error('graduateid')
  <span class="invalid-feedback" role="alert">
  <strong>{{ $message }}</strong>
  </span>

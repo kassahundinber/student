@@ -17,5 +17,6 @@ class Gsr extends Model
         'qualification',
         'gender',
         'department',
+        'batch'
         ];
 }

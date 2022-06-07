@@ -23,6 +23,8 @@ class GsrController extends Controller
       $Gsr->qualification = $request->qualification;
       $Gsr->gender = $request->gender;
       $Gsr->department = $request->department;
+      $Gsr->batch = $request->batch;
+
      
      $is_saved = $Gsr->save();
     if($is_saved){
@@ -56,6 +58,7 @@ class GsrController extends Controller
     $Gsr->qualification = $request->qualification;
     $Gsr->gender = $request->gender;
     $Gsr->department = $request->department;
+    $Gsr->batch = $request->batch;
     $Gsr->save();
     return redirect('Gsr/list');
     }

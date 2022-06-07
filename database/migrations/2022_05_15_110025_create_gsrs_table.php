@@ -22,6 +22,8 @@ return new class extends Migration
            $table->string('qualification');
            $table->string('gender');
            $table->string('department');
+           $table->string('batch');
+
              
             $table->timestamps();
  });
